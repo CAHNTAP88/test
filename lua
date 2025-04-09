@@ -284,6 +284,7 @@ notificationSettings.BackgroundTransparency = 1
 notificationSettings.Position = UDim2.new(0, 8, 0, 0)
 notificationSettings.Size = UDim2.new(0, 17, 0, 17)
 notificationSettings.Visible = false
+notificationSettings.Parent = topbar
 
 local textFrame = Instance.new("Frame")
 textFrame.Name = "TextFrame"
