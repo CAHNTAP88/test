@@ -283,6 +283,7 @@ settingsIcon.ImageColor3 = Theme.SectionText
 settingsIcon.BackgroundTransparency = 1
 settingsIcon.Position = UDim2.new(0, 6, 0, 9) -- Левее notificationTime
 settingsIcon.Size = UDim2.new(0, 17, 0, 17)
+settingsIcon.Visible = false
 settingsIcon.ZIndex = 2
 settingsIcon.Parent = topbar
 
