@@ -275,16 +275,17 @@ notificationTime.Visible = false
 notificationTime.ZIndex = 2
 notificationTime.Parent = topbar
 
-local notificationSettings = Instance.new("ImageButton")
-notificationSettings.Name = "NotificationNettings"
-notificationSettings.Image = "rbxassetid://137680589665946"
-notificationSettings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-notificationSettings.ImageColor3 = Color3.fromRGB(156, 59, 59)
-notificationSettings.BackgroundTransparency = 1
-notificationSettings.Position = UDim2.new(0, 8, 0, 0)
-notificationSettings.Size = UDim2.new(0, 17, 0, 17)
-notificationSettings.Visible = false
-notificationSettings.Parent = topbar
+local settingsIcon = Instance.new("ImageButton")
+settingsIcon.Name = "SettingsIcon"
+settingsIcon.Image = "rbxassetid://137680589665946"
+settingsIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingsIcon.ImageColor3 = Theme.SectionText
+settingsIcon.BackgroundTransparency = 1
+settingsIcon.Position = UDim2.new(0, 6, 0, 9) -- Левее notificationTime
+settingsIcon.Size = UDim2.new(0, 17, 0, 17)
+settingsIcon.ZIndex = 2
+settingsIcon.Parent = topbar
+
 
 local textFrame = Instance.new("Frame")
 textFrame.Name = "TextFrame"
