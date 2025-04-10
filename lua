@@ -1213,7 +1213,6 @@ Gui.Watermark.Text = "SS HUB"
 Gui.Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Watermark.TextSize = 14.000
 Gui.Watermark.TextStrokeTransparency = 0.800
-Gui.Watermark.TextXAlignment = Enum.TextXAlignment.Left
 Gui.Watermark.Position = UDim2.new(0, 0, 0, 0)
 Gui.Watermark.Active = true
 Gui.Watermark.Draggable = true
